@@ -12,5 +12,5 @@ This is a simple Streamlit chatbot using Google Gemini API.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/GenAI-Chatbot.git
+git clone https://github.com/Shanupk17/GenAI-Chatbot.git
 cd GenAI-Chatbot
