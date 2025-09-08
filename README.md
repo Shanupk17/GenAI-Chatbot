@@ -29,48 +29,54 @@ The `model.py` file is included to **check which Gemini models are available** f
 
 - Not all models are available for every account.  
 - Some models support `generateContent`, while others support embeddings or audio generation.  
-- Helps avoid 404 errors in your chatbot (`app.py`).  
+- Helps avoid 404 errors in your chatbot (`app.py`).
+ Run:
+```bash
+python model.py
+```
+
+It will print all models your API key can access along with their supported methods.
 
 **To run the project :**
 
 # 🛠 Setup Instructions
 
-1. Clone the repository
+**1. Clone the repository**
  ```bash
 git clone https://github.com/Shanupk17/GenAI-Chatbot.git
 cd GenAI-Chatbot
 ```
 
-3. Install dependencies
+**2. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Add your Gemini API key
+**3. Add your Gemini API key**
 
-Copy the example environment file to create your own:
+- Copy the example environment file to create your own:
 ```bash
 cp key.env.example key.env   # Linux/macOS
 copy key.env.example key.env # Windows
 ```
-Open key.env and add your Gemini API key:
+- Open key.env and add your Gemini API key:
 ```bash
 GEMINI_API_KEY=your_actual_gemini_api_key_here
 ```
 **Important: Never commit key.env to GitHub; it contains sensitive credentials.**
 
-4. Run the chatbot
+**4. Run the chatbot**
 ```bash
 streamlit run app.py
 ```
 
-A browser window will open showing the chatbot interface.
+-A browser window will open showing the chatbot interface.
 
-Type your message in the input box.
+-Type your message in the input box.
 
-The bot responds in real-time using the Gemini API.
+-The bot responds in real-time using the Gemini API.
 
-All messages are stored in session state for conversation history.
+-All messages are stored in session state for conversation history.
 ```
 💡 Usage Example
 🧑 You: Hello
