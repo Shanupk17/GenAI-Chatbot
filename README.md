@@ -69,6 +69,8 @@ GEMINI_API_KEY=your_actual_gemini_api_key_here
 ```bash
 streamlit run app.py
 ```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ae94529-673b-481d-a4ec-2a29bda2c84b" />
+
 
 -A browser window will open showing the chatbot interface.
 
@@ -130,6 +132,4 @@ pip install -r requirements.txt
 
 [Gemini API Key](https://aistudio.google.com/apikey)
 
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/29819517-1e80-498d-8e64-d874e4e0f129" />
 
