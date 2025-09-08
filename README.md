@@ -76,27 +76,28 @@ You can continue typing multiple messages.
 
 The conversation will appear sequentially with your inputs and bot responses.
 
-#⚠️ Notes
+# ⚠️ Notes
 
-Free-tier API keys have daily and per-minute usage limits. Exceeding them will return 429 quota exceeded errors.
+- Free-tier API keys have daily and per-minute usage limits. Exceeding them will return 429 quota exceeded errors.
 
-Use model.py to confirm which models are valid for your API key.
+- Use model.py to confirm which models are valid for your API key.
 
-Only commit the example .env file (key.env.example), never your real API key.
+- Only commit the example .env file (key.env.example), never your real API key.
 
-#📦 Dependencies
+# 📦 Dependencies
 
-streamlit – Web UI for the chatbot
+- streamlit – Web UI for the chatbot
 
-google-generativeai – Access Gemini API
+- google-generativeai – Access Gemini API
 
-python-dotenv – Load environment variables from .env file
+- python-dotenv – Load environment variables from .env file
 
-Install all dependencies:
-
+- Install all dependencies:
+```
 pip install -r requirements.txt
+```
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
 Santha P.
 
