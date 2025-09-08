@@ -131,4 +131,5 @@ pip install -r requirements.txt
 [Gemini API Key](https://aistudio.google.com/apikey)
 
 
-![Chatbot Screenshot](https://via.placeholder.com/800x400?text=GenAI+Chatbot+UI+Preview)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/29819517-1e80-498d-8e64-d874e4e0f129" />
+
