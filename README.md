@@ -9,14 +9,16 @@ A **Streamlit-based chatbot** powered by Google Gemini API. Chat with a Gemini l
 ---
 
 ## 📂 Project Structure
-'''GenAI-Chatbot/
-│
-├── app.py # Main Streamlit chatbot application
-├── key.env.example # Example file for Gemini API key (do NOT upload real key)
-├── model.py # Script to list available Gemini models for your API key
-├── requirements.txt # Python dependencies
-├── .gitignore # Files/folders to ignore in GitHub
-└── README.md # Project instructions and documentation '''
+
+```text
+GenAI-Chatbot/
+├── app.py               # Main Streamlit chatbot application
+├── key.env.example      # Example file for Gemini API key (do NOT upload real key)
+├── model.py             # Script to list available Gemini models for your API key
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Files/folders to ignore in GitHub
+└── README.md            # Project instructions and documentation
+```
 
 
 ---
