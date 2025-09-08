@@ -33,29 +33,34 @@ The `model.py` file is included to **check which Gemini models are available** f
 
 **To run the project :**
 
-🛠 Setup Instructions
-```bash
+# 🛠 Setup Instructions
+
 1. Clone the repository
+ ```bash
 git clone https://github.com/Shanupk17/GenAI-Chatbot.git
 cd GenAI-Chatbot
+```
 
-2. Install dependencies
+3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3. Add your Gemini API key
+4. Add your Gemini API key
 
 Copy the example environment file to create your own:
-
+```bash
 cp key.env.example key.env   # Linux/macOS
 copy key.env.example key.env # Windows
-
+```
 Open key.env and add your Gemini API key:
-
+```bash
 GEMINI_API_KEY=your_actual_gemini_api_key_here
-
-Important: Never commit key.env to GitHub; it contains sensitive credentials.
+```
+**Important: Never commit key.env to GitHub; it contains sensitive credentials.**
 
 4. Run the chatbot
+```bash
 streamlit run app.py
 ```
 
