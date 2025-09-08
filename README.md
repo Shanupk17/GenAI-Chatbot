@@ -33,9 +33,10 @@ The `model.py` file is included to **check which Gemini models are available** f
 
 **To run:**
 
-```bash
+
 python model.py
 🛠 Setup Instructions
+```bash
 1. Clone the repository
 git clone https://github.com/yourusername/GenAI-Chatbot.git
 cd GenAI-Chatbot
@@ -60,7 +61,7 @@ Important: Never commit key.env to GitHub; it contains sensitive credentials.
 
 4. Run the chatbot
 streamlit run app.py
-
+```
 
 A browser window will open showing the chatbot interface.
 
