@@ -99,11 +99,10 @@ pip install -r requirements.txt
 
 # 👨‍💻 Author
 
-Santha P.
+**Santha.P**
 
-🔗 Useful Links
+# 🔗 Useful Links
 
-Gemini API Documentation
+[Gemini API Key](https://aistudio.google.com/apikey)
 
-Streamlit Documentation
 
