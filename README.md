@@ -108,6 +108,20 @@ The conversation will appear sequentially with your inputs and bot responses.
 pip install -r requirements.txt
 ```
 
+## ⚠️ Limitations
+
+**1. API Key Quotas**
+
+- Free-tier Gemini API keys have daily and per-minute usage limits.
+
+- Exceeding these limits may return 429 quota exceeded errors, preventing further requests until the quota resets.
+
+**2.Model Availability**
+
+- Not all Gemini models are available to every API key.
+
+- Use model.py to check which models your API key can access and their supported methods.
+
 # 👨‍💻 Author
 
 **Santha.P**
@@ -117,3 +131,4 @@ pip install -r requirements.txt
 [Gemini API Key](https://aistudio.google.com/apikey)
 
 
+![Chatbot Screenshot](https://via.placeholder.com/800x400?text=GenAI+Chatbot+UI+Preview)
